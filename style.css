@@ -310,3 +310,118 @@ body {
 .footer p {
   color: #0c134f;
 }
+
+/* Responsive Design */
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .navbar .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .navbar .navbar-nav a {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+
+  .main .op h1 {
+    margin: 0;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .about h2,
+  .project h2,
+  .contact h2 {
+    margin-left: 0;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .about .row {
+    flex-direction: column;
+  }
+
+  .about .row .about-img {
+    margin: 1rem 0;
+  }
+
+  .about .row .content {
+    margin: 0;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+    margin: 1rem;
+  }
+
+  .contact .ct .in {
+    font-size: 1.2rem;
+    padding: 1rem;
+    line-height: 1.8rem;
+    text-align: center;
+  }
+}
+
+/* Medium devices (tablets, 768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar {
+    padding: 1rem 5%;
+  }
+
+  .navbar .navbar-nav a {
+    margin: 0 1rem;
+    font-size: 1.1rem;
+  }
+
+  .main .op h1 {
+    font-size: 2.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .about .row {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1rem 5%;
+  }
+}
+
+/* Large devices (desktops, more than 1024px) */
+@media (min-width: 1024px) {
+  .navbar {
+    padding: 1rem 7%;
+  }
+
+  .navbar .navbar-nav a {
+    margin: 0 1.3rem;
+    font-size: 1.2rem;
+  }
+
+  .main .op h1 {
+    font-size: 3rem;
+    margin-left: 27rem;
+  }
+
+  .about .row {
+    flex-direction: row;
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 7rem;
+  }
+}
+
