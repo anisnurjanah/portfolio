@@ -6,6 +6,11 @@
   outline: none;
   border: none;
   text-decoration: none;
+   --text: #9cd8d9;
+  --text2: #f7c8e0;
+  --text3: #f3deba;
+  --primary: #0c134f;
+  --second: #1d267d;
 }
 
 html {
