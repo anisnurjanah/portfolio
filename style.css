@@ -1,11 +1,4 @@
-:root {
-  --text: #9cd8d9;
-  --text2: #f7c8e0;
-  --text3: #f3deba;
-  --primary: #0c134f;
-  --second: #1d267d;
-}
-
+/* Global Styles (unchanged) */
 * {
   margin: 0;
   padding: 0;
@@ -26,7 +19,7 @@ body {
   height: 100vh;
 }
 
-/* navbar */
+/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -82,7 +75,7 @@ body {
   display: none;
 }
 
-/* main section */
+/* Main Section */
 .main {
   background-image: url(images/Desain\ tanpa\ judul.png);
   background-repeat: no-repeat;
@@ -113,7 +106,7 @@ body {
   float: right;
 }
 
-/* about section */
+/* About Section */
 .about,
 .project,
 .contact {
@@ -192,8 +185,7 @@ body {
   color: #9cd8d9;
 }
 
-/* project section */
-
+/* Project Section */
 .hero {
   display: flex;
   justify-content: center;
@@ -262,8 +254,7 @@ body {
   line-height: 1.4;
 }
 
-/* contact section */
-
+/* Contact Section */
 .contact {
   height: 38rem;
   justify-content: center;
@@ -295,8 +286,7 @@ body {
   box-shadow: 0.5rem 0.5rem 1rem #191825;
 }
 
-/* footer */
-
+/* Footer */
 .footer {
   background-color: white;
   width: 100%;
@@ -424,4 +414,3 @@ body {
     margin: 0 7rem;
   }
 }
-
