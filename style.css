@@ -325,19 +325,30 @@ body {
   line-height: 1.4;
 }
 
+.pdf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
 .pdf-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #e74c3c; /* Warna merah */
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-  }
-  .pdf-button:hover {
-    background-color: #c0392b; /* Warna hover */
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 20px;
+  justify-content: center;
+  background-color: var(--second);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.pdf-button:hover {
+  background-color: var(--primary);
+}
 
 /* contact section */
 
